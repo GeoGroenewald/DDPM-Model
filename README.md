@@ -11,7 +11,7 @@ Models contains a saved trained model state dict that can be loaded to generate 
 Model_info contains a short summary of my model generated with torchinfo
 
 ## Dataset
-This model was trained on pytorch's built-in CIFAR-10 dataset. As such it generates 32x32 images using a label from 0-10. It can thus only recognize a few labels and not words, however this could be implemented in a few lines and the project goal was to focus on the ML technicalities. STL-10 was chosen due to hardware constraints and the cost of training on a student budget.
+This model was trained on pytorch's built-in CIFAR-10 dataset. As such it generates 32x32 images using a label from 0-10. It can thus only recognize a few labels and not words, however this could be implemented in a few lines using the same logic, and the project goal was to focus on the ML technicalities. CIFAR-10 was chosen due to hardware constraints and the cost of training on a student budget.
 The label numbers correlate to these words
 * 0 - plane
 * 1 - car
@@ -24,6 +24,7 @@ The label numbers correlate to these words
 * 8 - ship
 * 9 - truck
 * 10 - No lable. Used for CFG
+  
 To further differentiation between classes Classifier free guidance was implemented
 
 # Example Images
