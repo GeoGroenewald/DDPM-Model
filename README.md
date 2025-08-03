@@ -27,3 +27,10 @@ The label numbers correlate to these words
 To further differentiation between classes Classifier free guidance was implemented
 
 # Example Images
+Some examples of generated images and the provided labels
+Ship
+<img width="765" height="774" alt="Ship" src="https://github.com/user-attachments/assets/51d4e78b-c8b7-4024-ab83-eb9036ecaf03" />
+Frog
+<img width="794" height="791" alt="Frog" src="https://github.com/user-attachments/assets/475ad492-eddc-49fd-8e48-84acae8cb6bb" />
+Horse
+<img width="792" height="785" alt="Horse" src="https://github.com/user-attachments/assets/40dacd9d-d11c-4f98-9caa-9dbc23661adc" />
